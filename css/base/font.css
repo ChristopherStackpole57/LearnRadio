@@ -1,0 +1,17 @@
+:root {
+    --menu-weight-std: bold;
+    --menu-size-std: 1.25vw;
+
+    --nav-weight-std: normal;
+    --nav-size-std: 1.0vw;
+
+    --main-h1-weight-std: bold;
+    --main-h1-size-std: 1.75vw;
+    --main-h3-weight-std: bold;
+    --main-h3-size-std: 1.5vw;
+    --main-p-weight-std: normal;
+    --main-p-size-std: 1.25vw;
+
+    --progressor-button-weight-std: bold;
+    --progressor-button-size-std: 1.5vw;
+}

@@ -1,0 +1,11 @@
+@import "colors.css";
+
+/* --- Footer --- */
+footer {
+    height: 5%;
+
+    background-color: var(--navy-blue);
+
+    font-weight: bold;
+    color: var(--creme);
+}

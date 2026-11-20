@@ -1,0 +1,50 @@
+@import "../base/colors.css";
+@import "../base/font.css";
+
+/* --- Progressor Buttons --- */
+.progressor-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.progressor-buttons a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-right: 5%;
+
+    border: 0.1vw black solid;
+    border-radius: 0.5vw;
+
+    padding-left: 1%;
+    padding-right: 1%;
+
+    height: 100%;
+
+    font-weight: var(--progressor-button-weight-std);
+    font-size: var(--progressor-button-size-std);
+
+    text-decoration: none;
+
+    color: var(--blue-gray);
+}
+
+.progressor-buttons a p {
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* --- Back Arrow Button --- */
+.back-arrow-button {
+    max-width: 5%;
+    height: auto;
+}
+
+.forward-arrow-button {
+    max-width: 5%;
+    height: auto;
+}

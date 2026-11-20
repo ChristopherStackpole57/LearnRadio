@@ -1,0 +1,36 @@
+@import "colors.css";
+@import "font.css";
+
+/* --- Main --- */
+main {
+    flex-grow: 1;
+
+    margin: 0px;
+    padding: 1vw;
+
+    background-color: var(--white);
+
+    color: var(--blue-gray);
+}
+
+main h1 {
+    font-weight: var(--main-h1-weight-std);
+    font-size: var(--main-h1-size-std);
+}
+
+main h3 {
+    font-weight: var(--main-h3-weight-std);
+    font-style: italic;
+    font-size: var(--main-h3-size-std);
+}
+
+main p {
+    font-weight: var(--main-p-weight-std);
+    font-size: var(--main-p-size-std);
+}
+
+.main-flipped-colors {
+    background-color: var(--blue-gray);
+
+    color: var(--white);
+}

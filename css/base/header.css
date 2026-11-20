@@ -1,0 +1,11 @@
+@import "/css/base/colors.css";
+
+/* --- Header --- */
+header {
+    display: flex;
+    flex-direction: row;
+
+    height: 7.5vh;
+
+    background-color: var(--white);
+}

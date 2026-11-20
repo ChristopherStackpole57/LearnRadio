@@ -1,0 +1,90 @@
+@import "/css/base/colors.css";
+@import "/css/base/font.css";
+
+/* --- Section Header --- */
+section-header {
+    position: relative;
+
+    height: 100%;
+
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+section-header a {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-weight: var(--menu-weight-std);
+    font-size: var(--menu-size-std);
+
+    text-decoration: none;
+}
+
+section-header a img {
+    max-width: 20%;
+    height: auto;
+}
+
+section-header a p {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 2%;
+    
+    white-space: nowrap;
+
+    color: var(--blue-gray);
+}
+
+section-header a:link, section-header a:visited {
+    color: inherit;
+}
+
+section-header:hover {
+    background-color: var(--navy-blue);
+}
+
+section-header:hover a p {
+    color: var(--white);
+}
+
+section-header:hover .drop-down-icon {
+    content: url("/images/icons/drop_down_flipped.png");
+}
+
+/* --- Drop Down Icon --- */
+.drop-down-icon {
+    max-width: 4%;
+    height: auto;
+}
+
+/* --- Section Header Dropdown --- */
+section-header-dropdown {
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0%;
+
+    box-sizing: border-box;
+
+    padding-left: 5%;
+    padding-bottom: 5%;
+
+    width: 100%;
+
+    background-color: var(--navy-blue);
+    
+    color: var(--white);
+}
+
+section-header-dropdown a {
+    padding-top: 2%;
+}
+
+section-header:hover section-header-dropdown {
+    display: block;
+}

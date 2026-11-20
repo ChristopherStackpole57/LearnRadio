@@ -1,0 +1,20 @@
+@import "../base/colors.css";
+
+/* --- Wiki Link --- */
+.wiki-link, .wiki-link:visited {
+    font-weight: bold;
+    font-style: italic;
+
+    text-decoration: none;
+    
+    color: var(--blue-gray)
+}
+
+.wiki-link:hover {
+    border: 3px solid black;
+    border-radius: 10px;
+
+    padding: 0.25%;
+
+    font-style: normal;
+}
